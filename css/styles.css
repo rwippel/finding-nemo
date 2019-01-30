@@ -1,0 +1,85 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+  
+  }
+
+body {
+    background: url("../assets/reef2.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    margin: 50px 150px 20px 150px;
+}
+
+/* ID selectors*/
+
+#movie {
+  width: 350px;
+}
+
+#intro {
+  color: white;
+}
+
+#year {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  margin: 2px 12px; 
+  border: white 1px solid;
+}
+
+#cast {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin: auto;
+  flex-direction: row; 
+  max-width: 70%;
+  flex-grow: 1;
+}
+
+#video {
+  text-align: center;
+  padding: 50px;
+  margin: auto;
+  position: relative;
+}
+
+/* Class selectors */
+
+.info {
+  margin: 2px 12px; 
+}
+
+.cast {
+  width: 200px;
+  height: 250px;
+  padding: 5px; 
+  border-radius: 20px;
+  overflow: hidden;
+  object-fit: cover;
+
+}
+
+
+/* Layout  */
+
+header {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  border: white 1px solid; 
+}
+
+p{
+  margin: 25px;
+}
+
+h1 {
+  font-size: 120px;
+}
+
+
